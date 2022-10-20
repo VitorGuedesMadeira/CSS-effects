@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: black;
+}
+
+img {
+    max-width: 350px;
+    transform-origin: center;
+    transform: perspective(400px) rotateY(20deg);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+    transition: 1s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: perspective(1000px);
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    color: white;
+}
