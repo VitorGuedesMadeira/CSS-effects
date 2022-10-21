@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+body {
+    background-color: black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 250px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+    box-shadow:
+    0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
