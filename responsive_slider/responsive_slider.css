@@ -34,13 +34,13 @@ body {
     overflow: hidden;
     transition: 0.5s;
     border: 5px solid black;
+    box-shadow: 20px 0 10px #0008, -20px 0 10px #0008;
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
     border-radius: 5px;
-    box-shadow: 20px 0 10px #0008, -20px 0 10px #0008;
     transition: 0.5s;
 }
 
