@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+    overflow: hidden;
+    transition: 0.5s;
+    border: 5px solid black;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 20px 0 10px #0008, -20px 0 10px #0008;
+    transition: 0.5s;
+}
+
+.swiper-slide img:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}

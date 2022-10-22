@@ -13,5 +13,10 @@ body {
 }
 
 img {
-    width: calc((100%/3) - 10px)
+    width: calc((100%/3) - 10px);
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.01);    
 }
