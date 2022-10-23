@@ -8,7 +8,6 @@ html,
 body {
     position: relative;
     height: 100%;
-    background-color: black;
 }
 
 body {
@@ -17,11 +16,13 @@ body {
     color: #000;
     margin: 0;
     padding: 0;
+    background-image: radial-gradient(rgb(28, 28, 75), black);
 }
 
 .swiper {
+    height: 100vh;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 200px;
 }
 
@@ -33,14 +34,14 @@ body {
     -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
     overflow: hidden;
     transition: 0.5s;
-    border: 5px solid black;
-    box-shadow: 20px 0 10px #0008, -20px 0 10px #0008;
+    border-radius: 10px;
+    border: 5px solid rgb(19, 19, 19);
+    box-shadow: 20px 0 10px #0008, 40px 0 20px #0006, -20px 0 20px #0008, -40px 0 20px #0006;
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
-    border-radius: 5px;
     transition: 0.5s;
 }
 
