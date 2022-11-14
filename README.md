@@ -1,5 +1,5 @@
 # CSS-effects
-This repo was created with the intention of learning and practicing new styling effects.
+This repo contains css examples and practices to be used in future projects.
 
 👤 **Vitor Guedes Madeira**
 - GitHub: [@vitorguedesmadeira](https://github.com/VitorGuedesMadeira)
